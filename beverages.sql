@@ -14,8 +14,7 @@ CREATE TABLE Teas (
 	TeaID INT PRIMARY KEY AUTO_INCREMENT, 
     SodaID INT NOT NULL, 
     TeaBrand VARCHAR(50) NOT NULL, 
-    TeaName VARCHAR(50) NOT NULL, 
-    TeaTag BOOLEAN
+    TeaName VARCHAR(50) NOT NULL
 );
 
 ALTER TABLE Teas
@@ -29,3 +28,4 @@ CREATE TABLE SodaTeas (
     Rating INT NOT NULL, 
     Notes VARCHAR(500) NOT NULL
 );
+
