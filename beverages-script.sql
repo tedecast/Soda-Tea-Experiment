@@ -11,5 +11,8 @@ FROM
 
 
 SELECT * FROM Sodas;
-SELECT * FROM Teas;     
+SELECT 
+    *
+FROM
+    Teas;     
 SELECT * FROM SodaTeas;
